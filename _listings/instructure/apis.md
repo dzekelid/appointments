@@ -12,9 +12,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - List appointment groups
+  x-api-slug: appointment-groups-get
+  description: List appointment groups.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -25,171 +25,87 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Create an appointment group
+  x-api-slug: appointment-groups-post
+  description: Create an appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
   tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
     API Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Delete an appointment group
+  x-api-slug: appointment-groupsid-delete
+  description: Delete an appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
   tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
     API Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Get a single appointment group
+  x-api-slug: appointment-groupsid-get
+  description: Get a single appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
   tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
     API Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Update an appointment group
+  x-api-slug: appointment-groupsid-put
+  description: Update an appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
   tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
     API Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - List student group participants
+  x-api-slug: appointment-groupsidgroups-get
+  description: List student group participants.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
   tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
     API Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - List user participants
+  x-api-slug: appointment-groupsidusers-get
+  description: List user participants.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
   tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
     API Provider, Profiles, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - List appointment groups
+  x-api-slug: appointment-groups-get
+  description: List appointment groups.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -200,35 +116,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Create an appointment group
+  x-api-slug: appointment-groups-post
+  description: Create an appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -236,40 +126,12 @@ apis:
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Delete an appointment group
+  x-api-slug: appointment-groupsid-delete
+  description: Delete an appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -277,42 +139,12 @@ apis:
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Get a single appointment group
+  x-api-slug: appointment-groupsid-get
+  description: Get a single appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -320,44 +152,12 @@ apis:
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - Update an appointment group
+  x-api-slug: appointment-groupsid-put
+  description: Update an appointment group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -365,46 +165,12 @@ apis:
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - List student group participants
+  x-api-slug: appointment-groupsidgroups-get
+  description: List student group participants.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -412,48 +178,12 @@ apis:
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: canvas-lms-includes-a-rest-api-for-accessing-and-modifying-data-externally-from-the-main-application-in-your-own-programs-and-scripts--
+- name: Instructure Canvas Appointment Groups API - List user participants
+  x-api-slug: appointment-groupsidusers-get
+  description: List user participants.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
@@ -461,179 +191,9 @@ apis:
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groups-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidgroups-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/appointment-groupsidusers-get-openapi.md
-- name: Instructure Canvas Appointment Groups API
-  x-api-slug: instructure-canvas-appointment-groups-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Audit API
-  x-api-slug: instructure-canvas-audit-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Calendar Events API
-  x-api-slug: instructure-canvas-calendar-events-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Conversations API
-  x-api-slug: instructure-canvas-conversations-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Courses API
-  x-api-slug: instructure-canvas-courses-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Global API
-  x-api-slug: instructure-canvas-global-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Groups API
-  x-api-slug: instructure-canvas-groups-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Polls API
-  x-api-slug: instructure-canvas-polls-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Quiz Submissions API
-  x-api-slug: instructure-canvas-quiz-submissions-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Sections API
-  x-api-slug: instructure-canvas-sections-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Users API
-  x-api-slug: instructure-canvas-users-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Utility APIs
-  x-api-slug: instructure-canvas-utility-apis
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/instructure/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://instagram.api.gallery.streamdata.io

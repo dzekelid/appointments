@@ -12,19 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/booker/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Booker
-  x-api-slug: booker
-  description: Booker simplifies spa and salon management with Online Booking Software.
-    Discover why Spas & Salons trust Booker to manage scheduling, integrated point-of-sale,
-    and more!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1810-booker.jpg
-  humanURL: http://www.booker.com/
-  baseURL: https:///
-  tags: Appointments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/appointments/master/_listings/booker/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.booker.com/company/blog
