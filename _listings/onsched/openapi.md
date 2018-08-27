@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: OnSched
 x-complete: 1
@@ -239,4 +238,3 @@ paths:
       - Availability
       - AppointmentId
       - Reschedule
----
